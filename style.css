@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+
+.header-options img{
+    width: 30px;
+    height: 10%;
+    padding-right: 10px;
+}
+
+.header-options a{
+    padding-left: 17px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-options a:hover{
+    text-decoration: underline;
+}
+
+
+
+.principal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    padding: 10px;
+}
+
+.caixa-principal{
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px;
+    border: 1px solid #dfdfdf;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
+.btns input {
+    margin: 5px;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #F8F9FA;
+}
+
+
+.btns input:hover{
+    border: 1px solid #c2c2c2;
+}
+
+.caixa-principal:hover{
+    box-shadow: 1px 1px 1px #c2c2c2;
+}
+
+
+#footer{
+    background-color: #F2F2F2;
+    padding: 12px;
+    margin-top: 280px;
+    color: #70757A;
+}
+
+.left, .right{
+    margin-top: 10px;
+}
+
+.left a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #70757A;
+
+}
+
+.right a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #70757A;
+}
+
+#footer .pais{
+    margin-left: 5px;
+}
+
+.opc{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right a:hover, .left a:hover{
+    text-decoration: underline;
+}
